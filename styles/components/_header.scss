@@ -1,0 +1,59 @@
+header {
+	padding: 10px 0;
+	@include wrap();
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	user-select: none;
+
+	background: #ffffff;
+	box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.15);
+
+	.nav-logo {
+		font-size: 28px;
+		font-weight: 900;
+		text-align: center;
+		color: #222;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
+	.nav-list {
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		li {
+			list-style: none;
+
+			a {
+				color: #222222;
+				font-weight: 500;
+
+				&:hover {
+					color: #000000;
+					text-decoration: none;
+				}
+			}
+			transition: all .1s;
+			&:hover{
+				
+			}
+		}
+	}
+	@media (max-width:768px) {
+		.nav-logo{
+			margin: 20px 0;
+		}
+		.nav-list{
+			display: block;
+			text-align: center;
+			li{
+				margin: 15px 0;
+			}
+		}
+	}
+}

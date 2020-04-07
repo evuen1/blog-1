@@ -1,0 +1,34 @@
+// ========================================================================
+// base styles " base/ "
+
+@import "base/_variables.scss";
+@import "base/_mixins.scss";
+@import "base/_reboot.scss";
+@import "base/_grid.scss";
+@import "base/_fonts.scss";
+@import "base/_general.scss";
+
+// 
+// ========================================================================
+// #
+// #
+// #
+// ========================================================================
+// vendor styles " vendor/ "
+
+@import "vendor/_libs.scss";
+
+// 
+// ========================================================================
+// #
+// #
+// #
+// ========================================================================
+// components " components/ "
+
+@import "components/_header.scss";
+@import "components/_footer.scss";
+@import "components/_content.scss";
+
+// 
+// ========================================================================
